@@ -17,22 +17,25 @@ This project is part of the AltSchool of Data Engineering Tinyuka 2024 Second Se
 
 mongodb-eduhub-project/
 │
-├── README.md # Project documentation
-├── .gitignore # Git ignore rules
+├── data/                            # Sample JSON/CSV data files
 │
-├── notebooks/
-│ └── eduhub_mongodb_project.ipynb # Jupyter notebook with all operations and outputs
+├── scripts/                         # Python scripts for CRUD, aggregation, indexing
+│   ├── data_population.py
+│   ├── crud_operations.py
+│   ├── aggregations.py
+│   └── performance_testing.py
 │
-├── src/
-│ └── eduhub_queries.py # Python script with MongoDB queries (backup/reference)
+├── docs/                            # Project documentation
+│   ├── performance_analysis.md
+│   └── schema_design.png
 │
-├── data/
-│ ├── sample_data.json # Exported JSON data for each collection
-│ └── schema_validation.json # Validation rules for collections
+├── notebooks/                       # Jupyter Notebooks for interactive development
+│   └── EduHub_Project_Notebook.ipynb
 │
-├── docs/
-│ ├── performance_analysis.md # Query performance and indexing documentation
-│ └── presentation.pptx # 5–10 slide summary of project design
+├── README.md                        # Project overview and setup guide
+├── requirements.txt                 # Python dependencies
+└── .gitignore                       # Git ignore rules
+
 
 
 ---
